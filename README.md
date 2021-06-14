@@ -3,7 +3,7 @@
 (Please don't modify the code. If you wish to work on the code: fork the repo, clone the forked one and work on that)
 - clone this repo by clicking on the green button 'Code' and then copy the HTTPS url
 - open git bash in the folder where you want to locally save this project
-- launch: git clone *copyed url*
+- launch: git clone *copyed_url*
 
 You will now have this project stored locally on your computer. You can close the git bash
 
@@ -17,6 +17,7 @@ It's better to create a virtual environment ro run this project. So:
 
 ## Run
 - (with the virtual environment activated!) launch: python amp_gui.py
+
 N.B: you must be in the same directory where the file is in order to run this command
 
 ## Update
