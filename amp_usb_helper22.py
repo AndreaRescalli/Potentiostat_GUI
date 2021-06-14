@@ -227,7 +227,7 @@ def process_data(device, _raw_data):
 
 
 def attempt_reconnect(device):
-    print "attempting reconnect"
+    print("attempting reconnect")
     # usb.util.dispose_resources(device) this doesnt work for some reason
     # self is the master
     # device = usb_comm.AmpUsb(operation_params)

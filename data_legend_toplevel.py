@@ -1,7 +1,7 @@
 __author__ = 'Kyle Vitautas Lopin'
 
 
-import Tkinter as tk
+import tkinter as tk
 
 color_choices = ['black', 'gray', 'red', 'green', 'blue', 'orange', 'magenta']
 
@@ -20,7 +20,7 @@ class DataLegendTop2(tk.Toplevel):
         var_delete = []
         vert_frame = []  # make a list to keep the vertical frames in
         tk.Label(self, text="Configure Data Legend").pack(side="top")
-        print "master index: ", _master.data.index
+        print("master index: {}".format(_master.data.index))
         for i in range(_master.data.index):
             vert_frame = tk.Frame(self)
             vert_frame.pack(side="top")
@@ -44,4 +44,4 @@ class DataLegendTop2(tk.Toplevel):
                   command=lambda: self.destroy()).pack(side='left')
 
     def save(self):
-        print "saving"
+        print("saving")

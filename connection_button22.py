@@ -1,6 +1,6 @@
 __author__ = 'Kyle Vitautas Lopin'
 
-import Tkinter as tk
+import tkinter as tk
 
 
 class ConnectionButton(tk.Button):

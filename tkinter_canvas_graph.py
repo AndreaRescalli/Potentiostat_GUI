@@ -1,6 +1,6 @@
 __author__ = 'Kyle Vitautas Lopin'
 
-import Tkinter as tk
+import tkinter as tk
 
 class canvas_graph_embed(tk.Frame):
 
@@ -34,7 +34,7 @@ class canvas_graph_embed(tk.Frame):
             self.graph.create_line(x, y_origin, x, y_origin+tick_len, width=2)
 
 
-        print 'testing'
+        print('testing')
 
     def on_resize(self, event):
         """

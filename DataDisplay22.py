@@ -6,7 +6,7 @@ If the user does not have matplotlib or one of its dependencies installed the pr
 """
 # TODO: is unused?
 
-import Tkinter as tk
+import tkinter as tk
 # import matplotlib.pyplot as plt
 # from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 # import matplotlib.pyplot as plt
@@ -59,10 +59,10 @@ class data_display(tk.Frame):
             import matplotlib
             import matplotlib.pyplot as plt
             from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-            print "matplotlib found"
+            print("matplotlib found")
             return True
-        except ImportError, e:
-            print "No matplotlib"
+        except ImportError as e:
+            print("No matplotlib")
             return False
 
 

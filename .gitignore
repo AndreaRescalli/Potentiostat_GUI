@@ -1,4 +1,5 @@
 .pyc
+__pycache__
 .csv
 
 # Windows image file caches
@@ -44,3 +45,10 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+
+# virtual environment settings file (.json)
+.vscode
+
+# log directory
+logging
